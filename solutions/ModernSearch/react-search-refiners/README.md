@@ -89,7 +89,7 @@ Use Natural Language Processing service | Turn this option 'on' if you want to e
 <table>
   <tr>
     <td>
-      <p align="center"><img src="./images/property_pane.png"/><p>
+      <p align="center"><img src="./images/property_pane1.png"/><p>
     </td>
     <td>
       <p align="center"><img src="./images/property_pane2.png"/><p>
@@ -120,6 +120,7 @@ Connect to a search refiners Web Part | If enable, select the search refiners We
 Enable Query Rules | Enable the query rules if applies. Turn this options  'on' to display your SharePoint Promoted results (links only).
 Selected properties | The search managed properties to retrieve. You can use these properties then in your Handlebar template with the syntax (`item.property_name`).
 Number of items to retrieve per page | Quite explicit. The paging behavior is done directly by the search API (See the *SearchDataProvider.ts* file), not by the code on post-render.
+Configure synonyms | Terms defined in this area will be enhanced with all their synonyms if found in the query sent to the server.
 
 #### Styling Options
 
