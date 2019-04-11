@@ -48,7 +48,7 @@ export default class Vertical extends React.Component<IFilterLayoutProps, IVerti
                 count: 1,
                 startIndex: i,
                 isDropEnabled: true,
-                isCollapsed: this.state.expandedGroups.indexOf(groupName) === -1 && showExpanded !== true ? true : false,
+                isCollapsed: this.state.expandedGroups.indexOf(groupName) === -1 && showExpanded !== true ? true : false
             });
 
             // Get selected values for this specfic refiner

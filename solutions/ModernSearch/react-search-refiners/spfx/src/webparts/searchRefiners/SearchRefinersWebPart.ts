@@ -198,7 +198,7 @@ export default class SearchRefinersWebPart extends BaseClientSideWebPart<ISearch
           },
           {
             id: 'showExpanded',
-            title: 'showExpendedLbl',
+            title: strings.Refiners.ShowExpanded,
             type: CustomCollectionFieldType.boolean
           }
         ]
